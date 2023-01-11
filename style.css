@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: dbdbdb;
+    font-family: "oxygen", sans-serif;
+
+}
+#social-bar{
+    background-color: rgb(26, 25, 25);
+    color:white;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: right;
+    padding: 15px;
+    object-fit: contain;
+    display: flex;
+    justify-content:space-between;
+    
+}
+#social-bar .bi{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+font{
+    float: left;
+    letter-spacing: 2px;
+}
+span{
+    left: 1px;
+    font-size: 15px;
+}
+.d-flex{
+    width: 400px;
+    height: 35px;
+    float: right;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px gray;
+    position: relative;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    background-color: black;
+
+}
+.resim{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.8;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.section{
+    display: flex;
+    height: auto;
+}
+.yan-menu{
+    width: 20%;
+    margin-right: 5px;
+}
+.main{
+    width: 80%;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+
+
+    
+}
+
+
+.card{
+    width: 48%;
+    height: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+footer{
+    width: 100%;
+    height: 75px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 75px;
+
+}
+.hakk{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px gray;
+}
+.main h1{
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px gray;
+    text-shadow: 2px gray;
+    
+}
+.ref{
+    width: 40%;
+    height: 400px;
+    margin-bottom: 10px;
+    
+}
+.ref img{
+    border-radius: 10px;
+    opacity: 0.6;
+}
+.ref img:hover{
+    opacity: 1;
+}
+.mail{
+    width: 30%;
+    height: auto;
+    margin-right: 10px;
+}
+.harita{
+    float: right;
+}
+.adr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+/*sosyal medya bağlantı*/
+ul {
+    position: relative;
+    display: flex;
+  }
+  
+  ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  ul li a {
+    text-decoration: none;
+  }
+  
+  ul li a .fa-brands {
+    font-size: 1em;
+    color: rgb(131, 128, 128);
+  }
+  
+  ul li a::before {
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+  }
+
+  ul li:nth-child(5) a::before {
+    content: "\f1a0";
+    background: conic-gradient(from -45deg,
+     #ea4335 110deg,
+      #4285f4 90deg 180deg,
+       #34a853 180deg 270deg,
+        #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid #ea4335;
+  }
+  
+  ul li:nth-child(4) a::before {
+    content: "\f16d";
+    background-image: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid #dc2743;
+  }
+  
+  ul li:nth-child(3) a::before {
+    content: "\f232";
+    color: #25d366;
+    border-bottom: 2px solid #25d366;
+  }
+  
+  ul li:nth-child(2) a::before {
+    content: "\f099";
+    color: #1da1f2;
+    border-bottom: 2px solid #1da1f2;
+  }
+
+  ul li:nth-child(1) a::before {
+    content: "\f09a";
+    color: blue;
+    border-bottom: 2px solid blue;
+  }
+  
+  ul li:hover a::before {
+    height: 100%;
+  }
+
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 50%;
+  }
+  
